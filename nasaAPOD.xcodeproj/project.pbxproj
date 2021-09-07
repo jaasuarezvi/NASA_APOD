@@ -17,7 +17,6 @@
 		F6AF8D7E26E7286A0044CF9B /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6AF8D7D26E7286A0044CF9B /* ViewModel.swift */; };
 		F6AF8D8026E736490044CF9B /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6AF8D7F26E736490044CF9B /* ImageLoader.swift */; };
 		F6AF8D8426E7398F0044CF9B /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6AF8D8326E7398F0044CF9B /* ImageView.swift */; };
-		F6AF8D8826E78BFA0044CF9B /* cardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6AF8D8726E78BFA0044CF9B /* cardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,7 +32,6 @@
 		F6AF8D7D26E7286A0044CF9B /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 		F6AF8D7F26E736490044CF9B /* ImageLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
 		F6AF8D8326E7398F0044CF9B /* ImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageView.swift; sourceTree = "<group>"; };
-		F6AF8D8726E78BFA0044CF9B /* cardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +45,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F682900526E79DE0003C93AF /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				F6AF8D7F26E736490044CF9B /* ImageLoader.swift */,
+				F6AF8D7626E71FC40044CF9B /* API.swift */,
+				F6AF8D7826E720C50044CF9B /* Costant.swift */,
+			);
+			path = utils;
+			sourceTree = "<group>";
+		};
 		F6AF8D5B26E71EF90044CF9B = {
 			isa = PBXGroup;
 			children = (
@@ -66,6 +74,7 @@
 		F6AF8D6626E71EF90044CF9B /* nasaAPOD */ = {
 			isa = PBXGroup;
 			children = (
+				F682900526E79DE0003C93AF /* utils */,
 				F6AF8D8626E786F90044CF9B /* viewModels */,
 				F6AF8D8526E786D80044CF9B /* Views */,
 				F6AF8D7A26E7264A0044CF9B /* Models */,
@@ -73,11 +82,6 @@
 				F6AF8D6B26E71EFB0044CF9B /* Assets.xcassets */,
 				F6AF8D7026E71EFB0044CF9B /* Info.plist */,
 				F6AF8D6D26E71EFB0044CF9B /* Preview Content */,
-				F6AF8D7626E71FC40044CF9B /* API.swift */,
-				F6AF8D7826E720C50044CF9B /* Costant.swift */,
-				F6AF8D7F26E736490044CF9B /* ImageLoader.swift */,
-				F6AF8D8326E7398F0044CF9B /* ImageView.swift */,
-				F6AF8D8726E78BFA0044CF9B /* cardView.swift */,
 			);
 			path = nasaAPOD;
 			sourceTree = "<group>";
@@ -101,6 +105,7 @@
 		F6AF8D8526E786D80044CF9B /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				F6AF8D8326E7398F0044CF9B /* ImageView.swift */,
 				F6AF8D6926E71EF90044CF9B /* ContentView.swift */,
 			);
 			path = Views;
@@ -183,7 +188,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F6AF8D8826E78BFA0044CF9B /* cardView.swift in Sources */,
 				F6AF8D8426E7398F0044CF9B /* ImageView.swift in Sources */,
 				F6AF8D8026E736490044CF9B /* ImageLoader.swift in Sources */,
 				F6AF8D7926E720C50044CF9B /* Costant.swift in Sources */,
